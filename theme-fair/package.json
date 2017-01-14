@@ -1,0 +1,25 @@
+{
+	"name": "theme-fair",
+	"displayName": "fair Themes",
+	"description": "The default light and dark themes (Plus and Visual Studio)",
+	"categories": [ "Themes" ],
+	"version": "0.1.10",
+	"publisher": "vscode",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"label": "FairDark+ (default dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_fair.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "vs-minimal",
+				"label": "Minimal (Visual Studio Code)",
+				"path": "./fileicons/vs_minimal_icons.json"
+			}
+		]
+	}
+}
